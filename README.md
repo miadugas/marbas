@@ -1,5 +1,5 @@
 # Marbas
-
+In Demonology Marbas answers truly on hidden or secret things, causes and heals diseases, gives wisdom and knowledge. This app is intended to provide you with knowledge.
 <hr>
 
 ## Description
