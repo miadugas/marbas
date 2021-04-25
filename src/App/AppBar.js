@@ -10,6 +10,7 @@ const Bar = styled.div`
 export default function(){
     return <Bar>
         <div> Marbas </div>
+        <div></div>
         <div> Dashboard </div>
         <div> Settings </div>
     </Bar>
