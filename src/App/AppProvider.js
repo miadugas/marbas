@@ -1,6 +1,9 @@
 // State Manager
 import React from 'react';
 
+const cc = require('cryptocompare');
+
+
 export const AppContext = React.createContext();
 
 export class AppProvider extends React.Component {
@@ -14,19 +17,31 @@ export class AppProvider extends React.Component {
     }
 }
 
+componentDidMount = () => {
+    this.fetchCoins();
+    // this.fetchPrices();
+    // this.fetchHistorical();
+    }
+
+fetchCoins = async () => {
+    let coinList = (await cc.coinList()).Data;
+    console.log(coinList);
+    this.setState({coinList});
+    }
+
 confirmFavorites = () => {
     // let currentFavorite = this.state.favorites[0];
-        this.setState({
+    this.setState({
         firstVisit: false,
-        page: 'dashboard',
+        page: 'dashboard'
     //   currentFavorite,
     //   prices: null,
     //   historical: null
     // }, () => {
     //     this.fetchPrices();
     //     this.fetchHistorical();
-        });
-        localStorage.setItem('marbas', JSON.stringify({
+    });
+    localStorage.setItem('marbas', JSON.stringify({
     //   favorites: this.state.favorites,
     //   currentFavorite
             test:'hello'
