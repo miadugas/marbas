@@ -12,7 +12,7 @@ This app is intended to provide you with knowledge to investigate the Cryptocurr
  <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
 
 ## Technology Used
-React
+React, CryptoCompare API
 
 
 <hr>

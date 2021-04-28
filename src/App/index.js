@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import AppLayout from './AppLayout';
 import AppBar from './AppBar';
-import { AppProvider } from './AppProvider';
+import {AppProvider} from './AppProvider';
 import Settings from '../Settings';
 
 
@@ -11,7 +11,7 @@ render() {
   return (
     <AppLayout>
       <AppProvider>
-      <AppBar />
+      <AppBar/>
       <Settings />
       </AppProvider>
     </AppLayout>
