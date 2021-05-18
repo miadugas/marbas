@@ -1,24 +1,25 @@
 # Marbas
 In Demonology Marbas answers truly on hidden or secret things, causes and heals diseases, gives wisdom and knowledge. 
-This app is intended to provide you with knowledge to investigate the Cryptocurrency landscape.
+
+This app dashboard is intended to provide you with knowledge to investigate the Cryptocurrency landscape.
 <hr>
 
 ## Description
-
-
+Cryptocurrency Dashboard built in React. Using localStorage the app greets the user on first visit, asking them to choose their favorite Coins. Coin search provided by fuzzy search. User can add/remove coins on the list of favorites. Chosen coins are disabled. Confirm Favorite Coin Remembers values for the user & generates dashboard prices & historical data.
+The dashboard data initializes from remembered favorites & displays 5 major Coins for first 5 favorites and compact Coins for next 5. User can renders a line chart for the 10 historical points on current favorite Coin. Line chart to render historical points on Date: Days Weeks Months. 
 
 <hr>
 
  <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
 
 ## Technology Used
-React, CryptoCompare API
+React, localStorage, CryptoCompare API, Context API for State Management, Moment 
 
 
 <hr>
 
 ### Additional Styling & Non-Technical Frameworks
-Styled Components, Google fonts, CSS Grids
+Styled Components, Fuzzy, Google fonts, CSS Grids, HighCharts, Lodash
 
 
 <hr>
