@@ -2,6 +2,7 @@
 In Demonology Marbas answers truly on hidden or secret things, causes and heals diseases, gives wisdom and knowledge. 
 
 This app dashboard is intended to provide you with knowledge to investigate the Cryptocurrency landscape.
+
 <hr>
 
 ## Description
@@ -10,17 +11,21 @@ The dashboard data initializes from remembered favorites & displays 5 major Coin
 
 <hr>
 
- <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
+ ![Main View](https://github.com/miadugas/marbas/blob/main/marbas-01.png)
+
+ <hr>
+ 
+ ![Main View](https://github.com/miadugas/marbas/blob/main/marbas-02.png)
+
+<hr>
 
 ## Technology Used
 React, localStorage, CryptoCompare API, Context API for State Management, Moment 
-
 
 <hr>
 
 ### Additional Styling & Non-Technical Frameworks
 Styled Components, Fuzzy, Google fonts, CSS Grids, HighCharts, Lodash
-
 
 <hr>
 
