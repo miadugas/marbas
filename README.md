@@ -6,8 +6,7 @@ This app dashboard is intended to provide you with knowledge to investigate the 
 <hr>
 
 ## Description
-Cryptocurrency Dashboard built in React. Using localStorage the app greets the user on first visit, asking them to choose their favorite Coins. Coin search provided by fuzzy search. User can add/remove coins on the list of favorites. Chosen coins are disabled. Confirm Favorite Coin Remembers values for the user & generates dashboard prices & historical data.
-The dashboard data initializes from remembered favorites & displays 5 major Coins for first 5 favorites and compact Coins for next 5. User can renders a line chart for the 10 historical points on current favorite Coin. Line chart to render historical points on Date: Days Weeks Months. 
+Cryptocurrency Dashboard built in React. Using localStorage the app greets the user on first visit, asking them to choose their favorite Coins. Coin search provided by fuzzy search. User can add/remove coins on the list of favorites. Chosen coins are disabled. Confirm Favorite Coin Remembers values for the user & generates dashboard prices & historical data. The dashboard data initializes from remembered favorites & displays 5 major Coins for first 5 favorites and compact Coins for next 5. User can then render a line chart for the 10 historical points on current favorite Coin. Line chart renders historical points on Date: Days Weeks Months.
 
 <hr>
 
